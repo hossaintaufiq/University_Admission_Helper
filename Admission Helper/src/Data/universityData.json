@@ -1,0 +1,71 @@
+[
+    {
+      "logo": "https://example.com/brac-logo.png",
+      "name": "BRAC University",
+      "establishment": "2001",
+      "iebCertified": true,
+      "courses": [
+        { "name": "Computer Science and Engineering (CSE)", "cost": "7,50,000 BDT", "credits": "140" },
+        { "name": "Business Administration (BBA)", "cost": "6,80,000 BDT", "credits": "130" },
+        { "name": "Economics", "cost": "6,50,000 BDT", "credits": "128" },
+        { "name": "Architecture", "cost": "8,00,000 BDT", "credits": "160" }
+      ]
+    },
+    {
+      "logo": "https://example.com/nsu-logo.png",
+      "name": "North South University",
+      "establishment": "1992",
+      "iebCertified": true,
+      "courses": [
+        { "name": "Computer Science and Engineering (CSE)", "cost": "8,00,000 BDT", "credits": "140" },
+        { "name": "Electrical and Electronic Engineering (EEE)", "cost": "7,50,000 BDT", "credits": "136" },
+        { "name": "Pharmacy", "cost": "9,00,000 BDT", "credits": "150" },
+        { "name": "Law", "cost": "7,20,000 BDT", "credits": "135" }
+      ]
+    },
+    {
+      "logo": "https://example.com/ewu-logo.png",
+      "name": "East West University",
+      "establishment": "1996",
+      "iebCertified": false,
+      "courses": [
+        { "name": "Computer Science and Engineering (CSE)", "cost": "7,00,000 BDT", "credits": "140" },
+        { "name": "English Literature", "cost": "5,50,000 BDT", "credits": "120" },
+        { "name": "Environmental Science", "cost": "6,00,000 BDT", "credits": "130" }
+      ]
+    },
+    {
+      "logo": "https://example.com/iub-logo.png",
+      "name": "Independent University Bangladesh",
+      "establishment": "1993",
+      "iebCertified": false,
+      "courses": [
+        { "name": "Media and Communication", "cost": "6,20,000 BDT", "credits": "130" },
+        { "name": "Business Administration (BBA)", "cost": "7,00,000 BDT", "credits": "130" },
+        { "name": "Electrical and Electronic Engineering (EEE)", "cost": "7,30,000 BDT", "credits": "136" }
+      ]
+    },
+    {
+      "logo": "https://example.com/aiub-logo.png",
+      "name": "American International University-Bangladesh",
+      "establishment": "1994",
+      "iebCertified": true,
+      "courses": [
+        { "name": "Computer Science and Engineering (CSE)", "cost": "7,50,000 BDT", "credits": "140" },
+        { "name": "Artificial Intelligence and Data Science", "cost": "8,50,000 BDT", "credits": "145" },
+        { "name": "Software Engineering", "cost": "7,80,000 BDT", "credits": "140" }
+      ]
+    },
+    {
+      "logo": "https://example.com/auet-logo.png",
+      "name": "Ahsanullah University of Science and Technology",
+      "establishment": "1995",
+      "iebCertified": true,
+      "courses": [
+        { "name": "Civil Engineering", "cost": "8,20,000 BDT", "credits": "155" },
+        { "name": "Mechanical Engineering", "cost": "8,00,000 BDT", "credits": "150" },
+        { "name": "Textile Engineering", "cost": "7,20,000 BDT", "credits": "145" }
+      ]
+    }
+  ]
+  
