@@ -1,26 +1,42 @@
 [
   {
-  "id": 1,
-  "logo": "https://example.com/nsu-logo.png",
-  "name": "North South University (NSU)",
-  "establishment": "1992",
-  "iebCertified": true,
-  "session": "Summer 2025",
-  "hscBatch": "2022-2024",
-  "examDate": "March 18, 2025",
-  "courses": [
-    { "name": "Computer Science and Engineering (CSE)", "cost": "7,60,000 BDT", "credits": "144" },
-    { "name": "Electrical and Electronics Engineering (EEE)", "cost": "7,20,000 BDT", "credits": "140" },
-    { "name": "Business Administration (BBA)", "cost": "6,70,000 BDT", "credits": "135" },
-    { "name": "Economics", "cost": "6,40,000 BDT", "credits": "130" },
-    { "name": "Environmental Science", "cost": "6,10,000 BDT", "credits": "128" },
-    { "name": "Pharmacy", "cost": "8,30,000 BDT", "credits": "160" },
-    { "name": "English", "cost": "5,90,000 BDT", "credits": "120" },
-    { "name": "Political Science", "cost": "6,00,000 BDT", "credits": "125" },
-    { "name": "Biochemistry", "cost": "6,50,000 BDT", "credits": "130" },
-    { "name": "Mathematics", "cost": "5,80,000 BDT", "credits": "120" }
-  ]
-},
+    "id": 1,
+    "logo": "https://example.com/nsu-logo.png",
+    "name": "North South University (NSU)",
+    "establishment": "1992",
+    "iebCertified": true,
+    "session": "Summer 2025",
+    "hscBatch": "2022-2024",
+    "examDate": "March 18, 2025",
+    "courses": [
+      {
+        "name": "Computer Science and Engineering (CSE)",
+        "cost": "7,60,000 BDT",
+        "credits": "144"
+      },
+      {
+        "name": "Electrical and Electronics Engineering (EEE)",
+        "cost": "7,20,000 BDT",
+        "credits": "140"
+      },
+      {
+        "name": "Business Administration (BBA)",
+        "cost": "6,70,000 BDT",
+        "credits": "135"
+      },
+      { "name": "Economics", "cost": "6,40,000 BDT", "credits": "130" },
+      {
+        "name": "Environmental Science",
+        "cost": "6,10,000 BDT",
+        "credits": "128"
+      },
+      { "name": "Pharmacy", "cost": "8,30,000 BDT", "credits": "160" },
+      { "name": "English", "cost": "5,90,000 BDT", "credits": "120" },
+      { "name": "Political Science", "cost": "6,00,000 BDT", "credits": "125" },
+      { "name": "Biochemistry", "cost": "6,50,000 BDT", "credits": "130" },
+      { "name": "Mathematics", "cost": "5,80,000 BDT", "credits": "120" }
+    ]
+  },
   {
     "id": 2,
     "logo": "https://example.com/brac-logo.png",
@@ -31,15 +47,27 @@
     "hscBatch": "2022-2024",
     "examDate": "March 15, 2025",
     "courses": [
-      { "name": "Computer Science and Engineering (CSE)", "cost": "7,50,000 BDT", "credits": "140" },
-      { "name": "Business Administration (BBA)", "cost": "6,80,000 BDT", "credits": "130" },
+      {
+        "name": "Computer Science and Engineering (CSE)",
+        "cost": "7,50,000 BDT",
+        "credits": "140"
+      },
+      {
+        "name": "Business Administration (BBA)",
+        "cost": "6,80,000 BDT",
+        "credits": "130"
+      },
       { "name": "Economics", "cost": "6,50,000 BDT", "credits": "128" },
       { "name": "Architecture", "cost": "8,00,000 BDT", "credits": "160" },
       { "name": "Microbiology", "cost": "6,20,000 BDT", "credits": "125" },
       { "name": "English", "cost": "5,80,000 BDT", "credits": "120" },
       { "name": "Law", "cost": "7,00,000 BDT", "credits": "135" },
       { "name": "Pharmacy", "cost": "8,50,000 BDT", "credits": "165" },
-      { "name": "Environmental Science", "cost": "6,00,000 BDT", "credits": "130" },
+      {
+        "name": "Environmental Science",
+        "cost": "6,00,000 BDT",
+        "credits": "130"
+      },
       { "name": "Anthropology", "cost": "5,50,000 BDT", "credits": "120" }
     ]
   },
@@ -53,19 +81,47 @@
     "hscBatch": "2022-2024",
     "examDate": "March 20, 2025",
     "courses": [
-      { "name": "Computer Science and Engineering (CSE)", "cost": "7,20,000 BDT", "credits": "142" },
-      { "name": "Electrical and Electronics Engineering (EEE)", "cost": "7,00,000 BDT", "credits": "140" },
-      { "name": "Business Administration (BBA)", "cost": "6,50,000 BDT", "credits": "132" },
-      { "name": "Computer Engineering (CE)", "cost": "7,10,000 BDT", "credits": "140" },
-      { "name": "Telecommunication Engineering (TE)", "cost": "7,00,000 BDT", "credits": "138" },
-      { "name": "Software Engineering (SWE)", "cost": "7,30,000 BDT", "credits": "145" },
+      {
+        "name": "Computer Science and Engineering (CSE)",
+        "cost": "7,20,000 BDT",
+        "credits": "142"
+      },
+      {
+        "name": "Electrical and Electronics Engineering (EEE)",
+        "cost": "7,00,000 BDT",
+        "credits": "140"
+      },
+      {
+        "name": "Business Administration (BBA)",
+        "cost": "6,50,000 BDT",
+        "credits": "132"
+      },
+      {
+        "name": "Computer Engineering (CE)",
+        "cost": "7,10,000 BDT",
+        "credits": "140"
+      },
+      {
+        "name": "Telecommunication Engineering (TE)",
+        "cost": "7,00,000 BDT",
+        "credits": "138"
+      },
+      {
+        "name": "Software Engineering (SWE)",
+        "cost": "7,30,000 BDT",
+        "credits": "145"
+      },
       { "name": "Accounting", "cost": "6,40,000 BDT", "credits": "130" },
       { "name": "Marketing", "cost": "6,30,000 BDT", "credits": "128" },
       { "name": "Finance", "cost": "6,50,000 BDT", "credits": "130" },
-      { "name": "Human Resource Management (HRM)", "cost": "6,20,000 BDT", "credits": "125" }
+      {
+        "name": "Human Resource Management (HRM)",
+        "cost": "6,20,000 BDT",
+        "credits": "125"
+      }
     ]
   },
-  
+
   {
     "id": 4,
     "logo": "https://example.com/iub-logo.png",
@@ -76,11 +132,31 @@
     "hscBatch": "2022-2024",
     "examDate": "March 22, 2025",
     "courses": [
-      { "name": "Computer Science and Engineering (CSE)", "cost": "7,40,000 BDT", "credits": "142" },
-      { "name": "Electrical and Electronics Engineering (EEE)", "cost": "7,10,000 BDT", "credits": "140" },
-      { "name": "Business Administration (BBA)", "cost": "6,60,000 BDT", "credits": "132" },
-      { "name": "Environmental Management", "cost": "6,20,000 BDT", "credits": "128" },
-      { "name": "Media and Communication", "cost": "6,00,000 BDT", "credits": "125" },
+      {
+        "name": "Computer Science and Engineering (CSE)",
+        "cost": "7,40,000 BDT",
+        "credits": "142"
+      },
+      {
+        "name": "Electrical and Electronics Engineering (EEE)",
+        "cost": "7,10,000 BDT",
+        "credits": "140"
+      },
+      {
+        "name": "Business Administration (BBA)",
+        "cost": "6,60,000 BDT",
+        "credits": "132"
+      },
+      {
+        "name": "Environmental Management",
+        "cost": "6,20,000 BDT",
+        "credits": "128"
+      },
+      {
+        "name": "Media and Communication",
+        "cost": "6,00,000 BDT",
+        "credits": "125"
+      },
       { "name": "Pharmacy", "cost": "8,20,000 BDT", "credits": "160" },
       { "name": "English", "cost": "5,90,000 BDT", "credits": "120" },
       { "name": "Anthropology", "cost": "5,80,000 BDT", "credits": "120" },
@@ -98,16 +174,154 @@
     "hscBatch": "2022-2024",
     "examDate": "March 25, 2025",
     "courses": [
-      { "name": "Computer Science and Engineering (CSE)", "cost": "7,30,000 BDT", "credits": "140" },
-      { "name": "Electrical and Electronics Engineering (EEE)", "cost": "7,00,000 BDT", "credits": "138" },
-      { "name": "Business Administration (BBA)", "cost": "6,50,000 BDT", "credits": "130" },
+      {
+        "name": "Computer Science and Engineering (CSE)",
+        "cost": "7,30,000 BDT",
+        "credits": "140"
+      },
+      {
+        "name": "Electrical and Electronics Engineering (EEE)",
+        "cost": "7,00,000 BDT",
+        "credits": "138"
+      },
+      {
+        "name": "Business Administration (BBA)",
+        "cost": "6,50,000 BDT",
+        "credits": "130"
+      },
       { "name": "Economics", "cost": "6,20,000 BDT", "credits": "128" },
       { "name": "English", "cost": "5,80,000 BDT", "credits": "120" },
       { "name": "Law", "cost": "6,90,000 BDT", "credits": "135" },
       { "name": "Pharmacy", "cost": "8,10,000 BDT", "credits": "160" },
-      { "name": "Environmental Science", "cost": "6,00,000 BDT", "credits": "125" },
+      {
+        "name": "Environmental Science",
+        "cost": "6,00,000 BDT",
+        "credits": "125"
+      },
       { "name": "Mathematics", "cost": "5,70,000 BDT", "credits": "120" },
       { "name": "Sociology", "cost": "5,90,000 BDT", "credits": "120" }
+    ]
+  },
+  {
+    "id": 6,
+    "logo": "https://example.com/uiu-logo.png",
+    "name": "United International University (UIU)",
+    "establishment": "2003",
+    "iebCertified": true,
+    "session": "Summer 2025",
+    "hscBatch": "2022-2024",
+    "examDate": "April 5, 2025",
+    "courses": [
+      {
+        "name": "Computer Science and Engineering (CSE)",
+        "cost": "7,10,000 BDT",
+        "credits": "138"
+      },
+      {
+        "name": "Business Administration (BBA)",
+        "cost": "6,40,000 BDT",
+        "credits": "130"
+      },
+      {
+        "name": "Electrical and Electronics Engineering (EEE)",
+        "cost": "7,20,000 BDT",
+        "credits": "140"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "logo": "https://example.com/aust-logo.png",
+    "name": "Ahsanullah University of Science and Technology (AUST)",
+    "establishment": "1995",
+    "iebCertified": true,
+    "session": "Summer 2025",
+    "hscBatch": "2022-2024",
+    "examDate": "March 28, 2025",
+    "courses": [
+      { "name": "Civil Engineering", "cost": "8,00,000 BDT", "credits": "155" },
+      { "name": "Mechanical Engineering", "cost": "7,80,000 BDT", "credits": "150" },
+      { "name": "Electrical and Electronics Engineering (EEE)", "cost": "7,50,000 BDT", "credits": "145" }
+    ]
+  },{
+    "id": 8,
+    "logo": "https://daffodil.university/themes/responsive_npf/images/diu-logo.png",
+    "name": "Daffodil International University (DIU)",
+    "establishment": "2002",
+    "iebCertified": true,
+    "session": "Summer 2025",
+    "hscBatch": "2022-2024",
+    "examDate": "April 5, 2025",
+    "courses": [
+      {
+        "name": "Computer Science and Engineering (CSE)",
+        "cost": "7,00,000 BDT",
+        "credits": "140"
+      },
+      {
+        "name": "Business Administration (BBA)",
+        "cost": "6,50,000 BDT",
+        "credits": "126"
+      },
+      {
+        "name": "Electrical and Electronics Engineering (EEE)",
+        "cost": "7,20,000 BDT",
+        "credits": "140"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "logo": "https://www.iubat.edu/wp-content/uploads/2019/12/iubat-logo.png",
+    "name": "International University of Business Agriculture and Technology (IUBAT)",
+    "establishment": "1991",
+    "iebCertified": true,
+    "session": "Summer 2025",
+    "hscBatch": "2022-2024",
+    "examDate": "April 5, 2025",
+    "courses": [
+      {
+        "name": "Computer Science and Engineering (CSE)",
+        "cost": "6,80,000 BDT",
+        "credits": "140"
+      },
+      {
+        "name": "Business Administration (BBA)",
+        "cost": "6,00,000 BDT",
+        "credits": "120"
+      },
+      {
+        "name": "Electrical and Electronics Engineering (EEE)",
+        "cost": "7,00,000 BDT",
+        "credits": "140"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "logo": "https://www.uap-bd.edu/images/uap-logo.png",
+    "name": "University of Asia Pacific (UAP)",
+    "establishment": "1996",
+    "iebCertified": true,
+    "session": "Summer 2025",
+    "hscBatch": "2022-2024",
+    "examDate": "April 5, 2025",
+    "courses": [
+      {
+        "name": "Computer Science and Engineering (CSE)",
+        "cost": "7,50,000 BDT",
+        "credits": "136"
+      },
+      {
+        "name": "Business Administration (BBA)",
+        "cost": "6,70,000 BDT",
+        "credits": "126"
+      },
+      {
+        "name": "Electrical and Electronics Engineering (EEE)",
+        "cost": "7,80,000 BDT",
+        "credits": "140"
+      }
     ]
   }
 ]

@@ -144,7 +144,7 @@ const AdmissionTable = ({ universities }) => {
         </table>
       </div>
       <p className="text-center mt-4 text-gray-700">
-        অফলাইনে/অনলাইনে ব্যাচে ভর্তি হতে কল করুন: <strong>০১৩১৯৯৭৭৪৭৬</strong>
+        {/* অফলাইনে/অনলাইনে ব্যাচে ভর্তি হতে কল করুন: <strong>০১৩১৯৯৭৭৪৭৬</strong> */}
       </p>
     </div>
   );

@@ -21,13 +21,25 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/admissions" className="hover:text-gray-200 transition">
-              Admissions
+            <Link to="/subjectComp" className="hover:text-gray-200 transition">
+              Subject Comparison
             </Link>
           </li>
           <li>
-            <Link to="/contact" className="hover:text-gray-200 transition">
-              Contact
+            <Link to="/ranking" className="hover:text-gray-200 transition">
+              Ranking
+            </Link>
+          </li>
+          <li>
+            <Link to="/sampleQuestions" className="hover:text-gray-200 transition">
+              Sample Questions
+            </Link>
+          </li>
+          
+          
+          <li>
+            <Link to="/aboutUs" className="hover:text-gray-200 transition">
+              About Us
             </Link>
           </li>
         </ul>
@@ -55,20 +67,39 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="/admissions"
+              to="/subjectComp"
               className="block hover:text-gray-200"
               onClick={() => setIsOpen(false)}
             >
-              Admissions
+              Subject Comparison
             </Link>
           </li>
           <li>
             <Link
-              to="/contact"
+              to="/ranking"
               className="block hover:text-gray-200"
               onClick={() => setIsOpen(false)}
             >
-              Contact
+            Ranking
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/sampleQuestions"
+              className="block hover:text-gray-200"
+              onClick={() => setIsOpen(false)}
+            >
+              Sample Questions
+            </Link>
+          </li>
+          
+          <li>
+            <Link
+              to="/aboutUs"
+              className="block hover:text-gray-200"
+              onClick={() => setIsOpen(false)}
+            >
+              About Us
             </Link>
           </li>
         </ul>
