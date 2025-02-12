@@ -7,6 +7,7 @@ import AboutUs  from "./Pages/AboutUs"
 import Contacts  from "./Pages/Contacts"
 import Details  from "./Pages/Details"
 import Footer from "./Pages/Footer"
+import SubjectComparison from "./Pages/SubjectComparison"
 const App = () => {
   return (
     
@@ -19,7 +20,8 @@ const App = () => {
           <Route path="/" element={<Homepage/>}/>
           <Route path="/about" element={<AboutUs/>} />
           <Route path="/contact" element={<Contacts/>} />
-          <Route path="/details/:universityId" element={<Details/>} />
+          <Route path="/details/:universityId" element={<Details/>} />\
+          <Route path="/subjectComparison" element={<SubjectComparison/>} />  
         </Routes>
       </main>
         

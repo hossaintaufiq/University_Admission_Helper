@@ -21,7 +21,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/subjectComp" className="hover:text-gray-200 transition">
+            <Link to="/subjectComparison" className="hover:text-gray-200 transition">
               Subject Comparison
             </Link>
           </li>
@@ -67,7 +67,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="/subjectComp"
+              to="/subjectComparison"
               className="block hover:text-gray-200"
               onClick={() => setIsOpen(false)}
             >
