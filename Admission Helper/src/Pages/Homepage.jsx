@@ -22,12 +22,16 @@ const Homepage = () => {
   const [facts] = useState(factsData);
 
   return (
-    <div className="bg-gray-100 min-h-screen">
-      <div className="hero bg-base-200 min-h-screen flex items-center justify-center">
+    <div className="min-h-screen" style={{ 
+      background: "linear-gradient(to right top, #FDF0D5, #E5C1F2)",
+      padding: "20px"
+    }}>
+      {/* Hero Section */}
+      <div className="hero min-h-screen flex items-center justify-center">
         <div className="hero-content text-center">
-          <div className="max-w-md">
-            <h1 className="text-5xl font-bold">Welcome to University daily News</h1>
-            <p className="py-6 text-lg">
+          <div className="max-w-md bg-white p-6 rounded-lg shadow-lg">
+            <h1 className="text-5xl font-bold text-gray-800">Welcome to University News</h1>
+            <p className="py-6 text-lg text-gray-600">
               Stay updated with the latest news, trends, and insights about private universities in Bangladesh. Discover top stories, facts, and in-depth analysis here.
             </p>
             <button className="btn btn-primary text-lg px-6 py-3">Explore Now</button>
@@ -35,24 +39,24 @@ const Homepage = () => {
         </div>
       </div>
 
-      {/* news part  */}
+      {/* News Section */}
       <div className="p-6 max-w-6xl mx-auto">
-        {/* <header className="text-center text-5xl font-bold border-b-4 pb-6 mb-8">University News Daily</header> */}
+        <header className="text-center text-5xl font-bold text-gray-800 border-b-4 pb-6 mb-8">University News Daily</header>
         <main className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <section className="md:col-span-2">
-            <h2 className="text-3xl font-semibold mb-6">Top Stories</h2>
+            <h2 className="text-3xl font-semibold mb-6 text-gray-800">Top Stories</h2>
             {news.map((article) => (
               <article key={article.id} className="mb-8 p-6 bg-white shadow-lg rounded-md">
-                <h3 className="text-2xl font-bold">{article.title}</h3>
+                <h3 className="text-2xl font-bold text-gray-800">{article.title}</h3>
                 <p className="text-gray-700 mt-3 text-lg">{article.content}</p>
               </article>
             ))}
           </section>
           <aside className="bg-white p-6 shadow-lg rounded-md">
-            <h2 className="text-3xl font-semibold mb-6">Did You Know?</h2>
-            <ul className="list-disc pl-6 text-lg">
+            <h2 className="text-3xl font-semibold mb-6 text-gray-800">Did You Know?</h2>
+            <ul className="list-disc pl-6 text-lg text-gray-700">
               {facts.map((fact, index) => (
-                <li key={index} className="text-gray-700 mb-3">{fact}</li>
+                <li key={index} className="mb-3">{fact}</li>
               ))}
             </ul>
           </aside>
