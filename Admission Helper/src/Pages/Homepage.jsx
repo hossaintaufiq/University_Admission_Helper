@@ -1,69 +1,63 @@
+import { useState } from "react";
 
-import { Link } from "react-router-dom";
-import PropTypes from "prop-types";
-import universityData from "../Data/universityData.json";
+const newsData = [
+  { id: 1, title: "Private Universities Rank Higher in Research", content: "Recent studies show private universities in Bangladesh are excelling in research output and faculty publications." },
+  { id: 2, title: "Tuition Fees: Rising Costs for Students", content: "A report suggests that tuition fees in private universities have increased by 15% over the last five years." },
+  { id: 3, title: "Industry Collaboration Improves Job Placements", content: "Private universities are partnering with industries to improve graduate employability and internship opportunities." },
+  { id: 4, title: "New Campus Openings Across the Country", content: "Several private universities are expanding their campuses to accommodate more students and provide better facilities." },
+  { id: 5, title: "Scholarship Programs on the Rise", content: "Many private universities are introducing new scholarship programs to support financially disadvantaged students." }
+];
 
-const AdmissionTable = ({ universities }) => {
-  return (
-    <div className="p-4">
-      <h2 className="text-2xl font-bold text-center">Private University Admission Test</h2>
-      <p className="text-center text-gray-600">
-        পরবর্তী ভর্তি পরীক্ষায় যারা অংশগ্রহণ করতে পারবে
-      </p>
-      <div className="overflow-x-auto">
-        <table className="min-w-full bg-white shadow-md rounded-lg mt-4">
-          <thead>
-            <tr className="bg-purple-600 text-white">
-              <th className="py-2 px-4">University</th>
-              <th className="py-2 px-4">Session</th>
-              <th className="py-2 px-4">HSC Batch</th>
-              <th className="py-2 px-4">Upcoming Exam Date</th>
-              <th className="py-2 px-4">Offered course & Cost</th>
-            </tr>
-          </thead>
-          <tbody>
-            {universities.map((uni, index) => (
-              <tr key={index} className="border-t text-center">
-                <td className="py-2 px-4">{uni.name}</td>
-                <td className="py-2 px-4">{uni.session}</td>
-                <td className="py-2 px-4">{uni.hscBatch}</td>
-                <td className="py-2 px-4">{uni.examDate}</td>
-                <td className="py-2 px-4">
-                  <Link
-                    to={`/details/${uni.id}`}
-                    className="text-blue-500 underline hover:text-blue-700"
-                  >
-                    View
-                  </Link>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-      <p className="text-center mt-4 text-gray-700">
-        {/* অফলাইনে/অনলাইনে ব্যাচে ভর্তি হতে কল করুন: <strong>০১৩১৯৯৭৭৪৭৬</strong> */}
-      </p>
-    </div>
-  );
-};
-
-AdmissionTable.propTypes = {
-  universities: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.number.isRequired,
-      name: PropTypes.string.isRequired,
-      session: PropTypes.string.isRequired,
-      hscBatch: PropTypes.string.isRequired,
-      examDate: PropTypes.string.isRequired,
-    })
-  ).isRequired,
-};
+const factsData = [
+  "There are over 100 private universities in Bangladesh.",
+  "Most private universities follow the semester system, unlike public universities.",
+  "Some private universities have international collaborations for dual degrees.",
+  "Private universities contribute significantly to research in business, IT, and engineering fields.",
+  "Private universities offer more flexible course options and evening programs for working students.",
+  "Many private universities have state-of-the-art laboratories and research centers."
+];
 
 const Homepage = () => {
+  const [news] = useState(newsData);
+  const [facts] = useState(factsData);
+
   return (
-    <div>
-      <AdmissionTable universities={universityData} />
+    <div className="bg-gray-100 min-h-screen">
+      <div className="hero bg-base-200 min-h-screen flex items-center justify-center">
+        <div className="hero-content text-center">
+          <div className="max-w-md">
+            <h1 className="text-5xl font-bold">Welcome to University daily News</h1>
+            <p className="py-6 text-lg">
+              Stay updated with the latest news, trends, and insights about private universities in Bangladesh. Discover top stories, facts, and in-depth analysis here.
+            </p>
+            <button className="btn btn-primary text-lg px-6 py-3">Explore Now</button>
+          </div>
+        </div>
+      </div>
+
+      {/* news part  */}
+      <div className="p-6 max-w-6xl mx-auto">
+        {/* <header className="text-center text-5xl font-bold border-b-4 pb-6 mb-8">University News Daily</header> */}
+        <main className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <section className="md:col-span-2">
+            <h2 className="text-3xl font-semibold mb-6">Top Stories</h2>
+            {news.map((article) => (
+              <article key={article.id} className="mb-8 p-6 bg-white shadow-lg rounded-md">
+                <h3 className="text-2xl font-bold">{article.title}</h3>
+                <p className="text-gray-700 mt-3 text-lg">{article.content}</p>
+              </article>
+            ))}
+          </section>
+          <aside className="bg-white p-6 shadow-lg rounded-md">
+            <h2 className="text-3xl font-semibold mb-6">Did You Know?</h2>
+            <ul className="list-disc pl-6 text-lg">
+              {facts.map((fact, index) => (
+                <li key={index} className="text-gray-700 mb-3">{fact}</li>
+              ))}
+            </ul>
+          </aside>
+        </main>
+      </div>
     </div>
   );
 };

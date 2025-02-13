@@ -21,6 +21,11 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
+            <Link to="/AdmissionTest" className="hover:text-gray-200 transition">
+              Admission 
+            </Link>
+          </li>
+          <li>
             <Link to="/subjectComparison" className="hover:text-gray-200 transition">
               Subject Comparison
             </Link>
@@ -63,6 +68,15 @@ const Navbar = () => {
               onClick={() => setIsOpen(false)}
             >
               Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/AdmissionTest"
+              className="block hover:text-gray-200"
+              onClick={() => setIsOpen(false)}
+            >
+              Admission 
             </Link>
           </li>
           <li>

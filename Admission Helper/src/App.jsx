@@ -8,6 +8,7 @@ import Contacts  from "./Pages/Contacts"
 import Details  from "./Pages/Details"
 import Footer from "./Pages/Footer"
 import SubjectComparison from "./Pages/SubjectComparison"
+import AdmissionTest from "./Pages/AdmissionTest"
 const App = () => {
   return (
     
@@ -18,6 +19,7 @@ const App = () => {
       <main className="flex grow container mx-auto p-6  justify-center bg-gray-100">
       <Routes className="flex grow p-4">
           <Route path="/" element={<Homepage/>}/>
+          <Route path="/admissionTest" element={<AdmissionTest/>} />
           <Route path="/about" element={<AboutUs/>} />
           <Route path="/contact" element={<Contacts/>} />
           <Route path="/details/:universityId" element={<Details/>} />\
@@ -26,6 +28,7 @@ const App = () => {
       </main>
         
         <Footer/>
+
       </div>
       
       </BrowserRouter>
